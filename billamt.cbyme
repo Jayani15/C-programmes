@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int p1,p2,billamt;
+
+main()
+{
+    printf("Enter the price of toothbrush : ");
+    scanf("%d",&p1);
+    
+    printf("Enter the prises of toothpaste : ");
+    scanf("%d",&p2);
+    
+    billamt = p1+p2 ;
+    
+    printf("Total amount of the bill is :%d ",billamt);
+
+}
